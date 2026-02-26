@@ -1,0 +1,35 @@
+body { width: 100%; height: 100%; display:block; font-size: xx-large; }
+
+/*.header { width: 100%; height: 10%; background-color: orange; }*/
+.header { width: 100%; height: 10%; background-color: white; margin-top: 2%; }
+.body { width: 100%; height: 80%; background-color: white; overflow: auto;}
+/*.footer { width: 100%; height: 10%; background-color: green; }*/
+.footer { width: 100%; height: 10%; background-color: white; }
+.footer p { width: 10%; font-size: x-small; position: relative;  }
+
+/*.leftBox { width: 45%; height: 90%; float: left; background-color: pink; position: relative; left: 3%; top: 5%; }*/
+/*.rightBox { width: 45%; height: 90%; float: left; background-color: cornsilk; position: relative; left: 5%; top: 5%; }*/
+.leftBox { width: 45%; height: 90%; float: left; background-color: white; position: relative; left: 3%; top: 5%; }
+.rightBox { width: 45%; height: 90%; float: left; background-color: white; position: relative; left: 5%; top: 5%; }
+.mainMiniBox { width: 100%; height: 90%; }
+.rankBox { width: 100%; height: 100%; text-align: center; }
+.rankBox > thead { font-size: smaller; }
+.rankBox > thead > tr { height: 110%; border-bottom: double 5px black; }
+/*.rankBox > thead > tr >th:first-child { width: 30%; }*/
+/*.rankBox > thead > tr >th:nth-child(2) { width: 50%; }*/
+/*.rankBox > thead > tr >th:last-child { width: 20%; }*/
+.rankBox > tbody { font-size: medium; }
+.rankBox > tbody > tr >td:first-child { width: 20%; }
+.rankBox > tbody > tr >td:nth-child(2) { width: 60%; }
+.rankBox > tbody > tr >td:last-child { width: 20%; }
+.rankBox > tbody > tr { height: 13.5vh; border-bottom: solid 1px #56585b; }
+.rankBox > tbody > tr > td { vertical-align: middle; }
+
+.poster { width:55%; padding-top: 1%; }
+
+#keyword { width: 50%; height: 80%; border-bottom: 2px dashed #56585b; position: relative; left: 20%; top: 10%; font-size: xxx-large; padding: 0 0 0 0; margin: 0 0 0 0; border-top: none; border-left: none; border-right: none; text-align: center; }
+#keyword::placeholder { text-align: center; }
+#btn { width: 10%; height: 80%; position: relative; left: 20%; top: 8%; font-size: xx-large; padding: 0 0 0 0; margin: 0 0 0 0; border: none; }
+#searchBtn { width: 10%; height: 80%; position: relative; left: 20%; top: 8%; font-size: xx-large; padding: 0 0 0 0; margin: 0 0 0 0; border: 1px solid black; border-radius: 10px 10px 10px 10px; background-color: white;}
+#tmdb_logo { width: 50%; height: 50%; position: relative; left: 25%;}
+
